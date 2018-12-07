@@ -19,4 +19,4 @@ class Home(APIView):
         context = dict()
         now = datetime.datetime.now()
         logger.info(now)
-        return HttpResponse('this is ok')
+        return HttpResponse('this is ok 2')
